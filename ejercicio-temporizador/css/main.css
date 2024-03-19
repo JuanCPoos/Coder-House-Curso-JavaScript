@@ -1,0 +1,29 @@
+body{
+    background-color: slateblue;
+}
+section{
+    
+}
+fieldset{
+    border-radius: 5px;    
+    background: linear-gradient(90deg, orange, yellow);  
+    border: none;      
+    
+}
+legend{        
+    background-color: rgb(172, 100, 12);
+    color: white;    
+    border-radius: 2px;
+    padding: .3em 1em;
+    
+}
+h4{
+    background-color: slateblue;
+    width: fit-content;
+    padding: .3em 1em;
+    box-shadow: 1px 1px 10px inset;
+}
+.valor{    
+    display: flex;
+    justify-content: center;
+}
