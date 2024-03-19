@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="font-family: 'Segoe UI',
+ Tahoma, Geneva, Verdana, sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;"
+>
+    <section>
+        <fieldset style="padding: 0.3em 1em; max-width: 750px;">
+            <legend>Cuenta regresiva</legend>
+            <div class="ejercicio">
+                <h3>Ejercicio</h3>
+                <p>El temporizador debería comenzar desde un número especificado por el usuario y contar hacia abajo hasta llegar a cero. Cuando el temporizador llegue a cero, se debe mostrar un mensaje indicando que el tiempo ha terminado.</p>
+            </div>
+            <label for="numInicialTemp">Valor inicial</label>
+            <input type="text" id="numInicialTemp">
+            <button id="btnCuentaRegresiva" style="background-color:cadetblue"> Comenzar</button>
+            <button id="reiniciar" disabled="true">Reiniciar</button>
+            <p style="text-align: center;" id="muestraValor">-</p>        
+        </fieldset>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
